@@ -1,4 +1,12 @@
 /*
+ NOTE(s):
+ * This is the script that runs when the extension is actually open
+ * So I should see if I can manipulate the current page
+ *  ? The current page might depend on using the background.js script, to get the URL and do pattern matching
+ *
+*/
+
+/*
  TODO(s):
  * Check the current Window
  * Design and build the UI

@@ -13,7 +13,7 @@
     "permissions": ["storage","https://www.facebook.com/*/likes*"],
 
     "background": {
-        "scripts": ["background.js"],
+        "scripts": ["./scripts/background.js"],
         "persistent": false
     }
 }
