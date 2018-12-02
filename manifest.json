@@ -1,0 +1,19 @@
+{
+    "name": "Unlike Facebook Pages",
+    "description": "A extension built to mass un-like all pages on Facebook.",
+    "version": "1.0",
+    "manifest_version": 2,
+    
+    "browser_action": {
+        "default_popup": "index.html"
+
+    },
+    
+    
+    "permissions": ["storage","https://www.facebook.com/*/likes*"],
+
+    "background": {
+        "scripts": ["./scripts/background.js"],
+        "persistent": false
+    }
+}
