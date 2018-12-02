@@ -1,0 +1,16 @@
+*, html,
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  border: 3px solid red;
+}
+
+h1 {
+  border: 2px dotted red;
+}
+/*# sourceMappingURL=main.css.map */
